@@ -20,5 +20,11 @@ public class Main {
         Book book2 = new Book("Romeo and Juliet", "Shakespeare");
         Book book3 = new Book("Robinson", "Daniel Depho", 13.99);
         //endregion
+        // region Person
+        Person person = new Person();
+        person.setName("Jhon");
+        person.setHeight(187);
+        person.personInfo(person);
+        // endregion
     }
 }
