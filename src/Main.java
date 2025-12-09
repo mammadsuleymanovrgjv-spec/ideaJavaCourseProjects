@@ -26,5 +26,9 @@ public class Main {
         person.setHeight(187);
         person.personInfo(person);
         // endregion
+        // region Engine
+        EngineCar engineCar=new EngineCar(new Engine(750));
+        engineCar.startCar();
+        // endregion
     }
 }
