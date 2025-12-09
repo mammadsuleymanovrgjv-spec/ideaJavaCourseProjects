@@ -9,6 +9,9 @@ public class Main {
         car.setYear(2009);
         System.out.println(car.getYear());
         //endregion
-
+        Student student= new Student("Jhon",22);
+        Student student2= new Student("Alex",25);
+        student.displayInfo();
+        student2.displayInfo();
     }
 }
