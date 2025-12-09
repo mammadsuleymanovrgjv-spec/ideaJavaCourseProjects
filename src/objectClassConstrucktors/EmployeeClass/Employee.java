@@ -1,3 +1,5 @@
+package objectClassConstrucktors.EmployeeClass;
+
 public class Employee {
     private String name;
     private double salary;
@@ -8,7 +10,7 @@ public class Employee {
         this.adress = adress;
     }
     public void employeeDetails() {
-        System.out.println("Employee Name: " + name);
+        System.out.println("Name: " + name);
         System.out.println("Salary: " + salary);
         adress.adressDetails();
     }

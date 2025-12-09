@@ -1,3 +1,5 @@
+package objectClassConstrucktors.RectangleClass;
+
 public class Rectangle {
     private double length;
     private double width;
@@ -8,11 +10,11 @@ public class Rectangle {
     }
 
     public void getArea() {
-        System.out.println("Rectangle Area : " + this.length * this.width);
+        System.out.println("Area : " + this.length * this.width);
     }
 
     public void getPerimeter() {
-        System.out.println("Rectangle Perimeter : " + 2 * (this.length + this.width));
+        System.out.println("Perimeter : " + 2 * (this.length + this.width));
 
 
     }
