@@ -27,8 +27,13 @@ public class Main {
         person.personInfo(person);
         // endregion
         // region Engine
-        EngineCar engineCar=new EngineCar(new Engine(750));
+        EngineCar engineCar = new EngineCar(new Engine(750));
         engineCar.startCar();
+        // endregion
+        // region Rectangle
+        Rectangle rectangle = new Rectangle(20, 5);
+        rectangle.getArea();
+        rectangle.getPerimeter();
         // endregion
     }
 }
