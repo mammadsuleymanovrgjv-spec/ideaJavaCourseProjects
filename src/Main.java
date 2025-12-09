@@ -10,10 +10,15 @@ public class Main {
         System.out.println(car.getYear());
         //endregion
         // region Student
-        Student student= new Student("Jhon",22);
-        Student student2= new Student("Alex",25);
+        Student student = new Student("Jhon", 22);
+        Student student2 = new Student("Alex", 25);
         student.displayInfo();
         student2.displayInfo();
         // endregion
+        //region Book
+        Book book = new Book();
+        Book book2 = new Book("Romeo and Juliet", "Shakespeare");
+        Book book3 = new Book("Robinson", "Daniel Depho", 13.99);
+        //endregion
     }
 }
