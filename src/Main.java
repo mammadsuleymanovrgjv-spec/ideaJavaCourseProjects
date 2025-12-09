@@ -35,5 +35,9 @@ public class Main {
         rectangle.getArea();
         rectangle.getPerimeter();
         // endregion
+        // region Employee
+        Employee employee = new Employee("Jhon Doe", 2500, new Adress("Williams32", "London", 1006));
+        employee.employeeDetails();
+        // endregion
     }
 }
