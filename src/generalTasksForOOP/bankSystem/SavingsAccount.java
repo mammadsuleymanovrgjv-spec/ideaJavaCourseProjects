@@ -1,9 +1,9 @@
 package generalTasksForOOP.bankSystem;
 
-public class SavingAccounts extends BankAccount {
+public class SavingsAccount extends BankAccount {
     private final double limit;
 
-    public SavingAccounts(double balance, double limit) {
+    public SavingsAccount(double balance, double limit) {
         super(balance);
         this.limit = limit;
         System.out.println("Saving account created!");

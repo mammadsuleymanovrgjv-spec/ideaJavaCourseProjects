@@ -1,7 +1,7 @@
 package generalTasksForOOP.bankSystem;
 
-public class CheckingAccounts extends BankAccount {
-    public CheckingAccounts(double balance) {
+public class CheckingAccount extends BankAccount {
+    public CheckingAccount(double balance) {
         super(balance);
         System.out.println("Checking account created!");
 
